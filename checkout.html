@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#c4536a" />
+    <title>Checkout — SaborJá</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='18' width='64' height='64' fill='%23f4c3d0'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-size='26' font-family='Georgia' fill='%238f3d52'%3ESj%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Great+Vibes&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <aside class="sidebar" id="sidebar"></aside>
+      <div class="shell">
+        <header class="header" id="header"></header>
+        <div class="workspace">
+          <main class="view" id="main"></main>
+          <aside class="bag-panel" id="bag"></aside>
+        </div>
+      </div>
+    </div>
+    <nav class="tabbar" id="tabbar"></nav>
+    <a class="cart-float" id="cart-float" hidden href="carrinho.html"></a>
+    <div id="modal" class="modal" hidden></div>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <script src="js/data.js"></script>
+    <script src="js/shared.js"></script>
+    <script src="js/pages/checkout.js"></script>
+  </body>
+</html>
